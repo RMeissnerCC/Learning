@@ -1,21 +1,8 @@
-# Python program to demonstrate working
-# of the filter.
-
-# function that filters vowels
-def fun(variable):
-    letters = ['a', 'e', 'i', 'o', 'u']
-
-    if (variable in letters):
-        return True
-    else:
-        return False
-
-
-# sequence
-sequence = ['g', 'e', 'e', 'j', 'k', 's', 'p', 'r']
+vowels = ['a', 'e', 'i', 'o', 'u']
+characters = ['g', 'e', 'e', 'j', 'k', 's', 'p', 'r']
 
 # using filter function
-filtered = filter(fun, sequence)
+filtered = filter(lambda x: True if x in vowels else False, characters)
 
 print('The filtered letters are:')
 

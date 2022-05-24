@@ -1,4 +1,7 @@
-Watch me playing arround and learning.
+Watch me playing around and learning.
+
+A lot of this code is for just one idea only, so surely, there are better/more pythonic/faster/cleverer ways of doing
+it.
 
 # Sources
 
