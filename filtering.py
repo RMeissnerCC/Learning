@@ -6,5 +6,4 @@ filtered = filter(lambda x: True if x in vowels else False, characters)
 
 print('The filtered letters are:')
 
-for s in filtered:
-    print(s)
+[print(s) for s in filtered]
